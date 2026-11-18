@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+.stApp { font-family: 'DM Sans', sans-serif; }
+.stApp, .stApp label, .stApp [data-testid="stMarkdownContainer"] { color: #182735; }
+.stApp [data-testid="stAlert"] { background: #eaf3ff; color: #173b57; border: 1px solid #c9dcf4; }
+.main .block-container { max-width: 1440px; padding-top: 1.6rem; padding-bottom: 3rem; }
+h1, h2, h3 { font-family: 'Manrope', sans-serif !important; letter-spacing: -0.035em; }
+[data-testid="stMetric"] { background: linear-gradient(145deg, rgba(32,201,151,.10), rgba(82,113,255,.07)); border: 1px solid rgba(120,140,165,.20); padding: 1rem 1.1rem; border-radius: 16px; }
+[data-testid="stMetricLabel"] { font-weight: 600; }
+[data-testid="stSidebar"] { border-right: 1px solid rgba(120,140,165,.2); }
+[data-testid="stFileUploader"] { border-radius: 14px; }
+.hero { padding: 1.4rem 1.6rem; border-radius: 20px; background: linear-gradient(115deg, rgba(32,201,151,.17), rgba(82,113,255,.13)); border: 1px solid rgba(120,140,165,.20); margin-bottom: 1.4rem; }
+.hero-kicker { text-transform: uppercase; letter-spacing: .14em; font-weight: 700; font-size: .75rem; opacity: .7; }
+.hero-title { font-family: 'Manrope', sans-serif; font-size: clamp(1.7rem, 3vw, 2.7rem); font-weight: 800; margin: .25rem 0; }
+.hero-copy { opacity: .78; margin: 0; }
+div[data-testid="stChatMessage"] { border: 1px solid rgba(120,140,165,.17); border-radius: 14px; }
+.stButton > button, .stDownloadButton > button { border-radius: 10px; font-weight: 600; }
+@media (max-width: 700px) { .main .block-container { padding-left: 1rem; padding-right: 1rem; } }
